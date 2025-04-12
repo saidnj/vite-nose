@@ -8,7 +8,7 @@ import handlebars from 'vite-plugin-handlebars';
 import handlerBarsContext from './variables.js';
 
 export default defineConfig({
-    base: "/vite-a/",
+    base: "/vite-nose/",
     appType: 'mpa',
     assetsInclude: ['**/*.hbs'],
     build: {
